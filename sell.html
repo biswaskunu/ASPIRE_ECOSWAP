@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Swap | Campus Circular Economy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+                <div class="head">
+                <h1>Eco-Swap</h1>
+                <p>Waste less, share more.</p>
+                </div>
+                
+                <div class="scores">
+                <span>My Points: <span id="userPoints">0</span></span>
+                <span>Rank: <span id="userRank">Seedling</span></span>
+                </div>
+</header>
+<main>
+    <section class="upload-section">
+        <h2>Post an Item</h2>
+        <input type="text" id="itemName" placeholder="Item name...">
+        <select id="itemType">
+            <option value="Giveaway">Giveaway (Free)</option>
+            <option value="Sell">Sell (Paid)</option>
+        </select>
+        <input type="number" id="itemPrice" placeholder="Price (if Selling)" id="priceInput">
+        <button id="addBtn">Post to Marketplace</button>
+    </section>
+
+    <!-- <div class="tabs">
+        <button class="tab-btn active" onclick="filterFeed('Giveaway')">Giveaways</button>
+        <button class="tab-btn" onclick="filterFeed('Sell')">For Sale</button>
+    </div> -->
+
+    <div id="feed"></div>
+</main>
+
+<footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3 class="footer-title">ECO-SWAP</h3>
+                    <p class="footer-description">
+                        DECENTRALIZE RESOURCES
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-link-list">
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4 class="footer-heading">Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
